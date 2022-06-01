@@ -38,7 +38,7 @@ packages = [{ include = "callofduty" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-httpx = "^0.16.1"
+httpx = ">=0.16.1,<0.24.0"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"
